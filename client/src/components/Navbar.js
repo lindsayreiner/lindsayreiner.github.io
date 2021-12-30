@@ -20,21 +20,21 @@ export default function Navbar() {
     return (
         <div>
 
-            <nav>
+            <nav className="navbar">
                 <Link className="initials animation" to="/">LCR</Link>
                 <ul>
 
                     <li>
-                        <ColorButton className="navBtn" variant="contained"><Link className="navBtn" to="/about">About</Link></ColorButton>
+                        <ColorButton className="navBtn" variant="contained"><Link to="/about">About</Link></ColorButton>
                     </li>
                     <li>
-                        <ColorButton variant="contained"><Link className="navBtn" to="/projects">Projects</Link></ColorButton>
+                        <ColorButton className="navBtn" variant="contained"><Link to="/projects">Projects</Link></ColorButton>
                     </li>
                     <li>
-                        <ColorButton variant="contained"><HashLink className="navBtn" to="#contact">Contact</HashLink></ColorButton>
+                        <ColorButton className="navBtn" variant="contained"><HashLink to="#contact">Contact</HashLink></ColorButton>
                     </li>
                     <li>
-                        <ColorButton variant="contained"><Link className="navBtn" to="/resume">Resume</Link></ColorButton>
+                        <ColorButton className="navBtn" variant="contained"><Link to="/resume">Resume</Link></ColorButton>
                     </li>
                 </ul>
             </nav>
