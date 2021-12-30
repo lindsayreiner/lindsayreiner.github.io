@@ -22,19 +22,19 @@ export default function Navbar() {
 
             <nav className="navbar">
                 <Link className="initials animation" to="/">LCR</Link>
-                <ul>
+                <ul className="navBtnCont">
 
-                    <li>
-                        <ColorButton className="navBtn" variant="contained"><Link to="/about">About</Link></ColorButton>
+                    <li className="navBtn">
+                        <ColorButton variant="contained"><Link className="navBtnLink" to="/about">About</Link></ColorButton>
                     </li>
-                    <li>
-                        <ColorButton className="navBtn" variant="contained"><Link to="/projects">Projects</Link></ColorButton>
+                    <li className="navBtn">
+                        <ColorButton variant="contained"><Link className="navBtnLink" to="/projects">Projects</Link></ColorButton>
                     </li>
-                    <li>
-                        <ColorButton className="navBtn" variant="contained"><HashLink to="#contact">Contact</HashLink></ColorButton>
+                    <li className="navBtn">
+                        <ColorButton variant="contained"><HashLink className="navBtnLink" to="#contact">Contact</HashLink></ColorButton>
                     </li>
-                    <li>
-                        <ColorButton className="navBtn" variant="contained"><Link to="/resume">Resume</Link></ColorButton>
+                    <li className="navBtn">
+                        <ColorButton variant="contained"><Link className="navBtnLink" to="/resume">Resume</Link></ColorButton>
                     </li>
                 </ul>
             </nav>

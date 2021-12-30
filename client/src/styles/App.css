@@ -25,6 +25,9 @@
   /* Root style          */
   /* --------------------*/
   
+  body {
+    margin: 0;
+  }
 
 #root { 
     font-family: 'Red Hat Display', sans-serif;
@@ -76,9 +79,12 @@ body > footer {
   text-align: center;
   text-decoration: none;
   border: 3px solid black;
+  margin: 1rem;
   padding: 1rem;
   color: var(--light);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-height: 7vh;
+  
 }
 
 .animation {
@@ -113,7 +119,7 @@ body > footer {
 .navbar {
   background-color: black;
   width: 100vw;
-  height: 40vh;
+  height: 20vh;
   display: flex;
   flex-direction: row;
   /* 
@@ -121,11 +127,22 @@ body > footer {
    */
 }
 
+.navBtnCont {
+  display: flex;
+  justify-content: center;
+}
+
 
 .navBtn { 
+  margin: 2rem;
+}
+
+.navBtnLink {
   text-decoration: none;
   list-style: none;
   color: black;
   font-weight: bold;
-  margin: 1rem;
+  padding: .5rem;
 }
+
+
