@@ -2,7 +2,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import About from './components/About';
 import Projects from './components/Projects';
-import Welcome from './components/Welcome';
+// import Welcome from './components/Welcome';
 import {
   BrowserRouter as Router,
   Routes,
