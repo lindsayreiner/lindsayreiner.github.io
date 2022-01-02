@@ -1,19 +1,11 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link"
-// import { styled } from '@mui/material/styles';
-// import Button from '@mui/material/Button';
-// import { blueGrey } from '@mui/material/colors';
+
 import 'normalize.css';
 import '../styles/App.css'
 
-// const ColorButton = styled(Button)(({ theme }) => ({
-//     color: theme.palette.getContrastText(blueGrey[500]),
-//     backgroundColor: blueGrey[500],
-//     '&:hover': {
-//         backgroundColor: blueGrey[700],
-//     },
-// }));
+import resume from '../images/Lindsay C. Reiner Web Dev Resume 12.1.2021.pdf';
 
 
 export default function Navbar() {
@@ -34,7 +26,7 @@ export default function Navbar() {
                         <HashLink className="navBtnLink" to="#contact">Contact</HashLink>
                     </li>
                     <li className="navBtn">
-                        <Link className="navBtnLink" to="/resume">Resume</Link>
+                        <a className="navBtnLink" href={resume} target="_blank" rel="noreferrer">Resume</a>
                     </li>
                 </ul>
             </nav>
