@@ -1,3 +1,5 @@
+@import-normalize;
+
 /**
  * /* --------------------
  *
@@ -25,6 +27,7 @@
   /* Root style          */
   /* --------------------*/
   
+  html,
   body {
     margin: 0;
   }
@@ -32,15 +35,17 @@
 #root { 
     font-family: 'Red Hat Display', sans-serif;
     font-size: 62.5%;
-    /* padding: 1rem;
-    margin: 1rem; */
+    background-image: url(../images/background-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 /* Sticky footer */
 
 body > footer {
-  position: sticky;
-  top: 100vh;
+  /* position: sticky;
+  top: 100vh; */
 }
 
 /* --------------------*/
@@ -83,7 +88,10 @@ body > footer {
   padding: 1rem;
   color: var(--light);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  max-height: 7vh;
+  width: 65px;
+  height: 50px;
+  line-height: 50px;
+  margin-left: 2rem;
   
 }
 
@@ -121,28 +129,93 @@ body > footer {
   width: 100vw;
   height: 20vh;
   display: flex;
-  flex-direction: row;
-  /* 
-  justify-content: space-between;
-   */
+  
+  
+  /* flex-direction: row; */
 }
 
 .navBtnCont {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  width: 69%;
 }
 
 
 .navBtn { 
-  margin: 2rem;
+  margin-top: 2rem;
+  list-style: none;
+}
+
+.navBtnLink:hover {
+  border-bottom: 5px var(--eggplant) solid;
+  color: #82b8d4;
 }
 
 .navBtnLink {
   text-decoration: none;
   list-style: none;
-  color: black;
+  color: var(--light);
+  font-size: 1.3rem;
   font-weight: bold;
-  padding: .5rem;
+  padding: .3rem calc(100vw - 1000px) / 2;
+  z-index: 10;
+  
 }
 
 
+ /* --------------------*/
+  /* Footer             */
+  /* --------------------*/
+
+  .footerCont {
+    height: 5rem;
+    width: 100%;
+    background-color: black;
+    color: var(--light);
+  }
+  
+  .footerUl {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5em;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+  }
+
+  .footerLi {
+    text-decoration: none;
+    list-style: none;
+  }
+
+  .footerLiLink {
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+  }
+
+  .footerLiLink:hover {
+    border-bottom: 5px var(--eggplant) solid;
+    color: #82b8d4;
+  }
+
+  /* --------------------*/
+  /* About section       */
+  /* --------------------*/
+
+#about { 
+  font-size: 1rem;
+  padding: 2rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  border: 5px double black;
+  margin: 1rem;
+}
+
+  .opening-line:first-letter {
+    font-size: 3rem;
+  }
+
+  .aboutPara {
+    font-size: 1rem;
+  }
