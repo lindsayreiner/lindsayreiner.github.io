@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import { HashLink } from "react-router-hash-link";
+// import { HashLink } from "react-router-hash-link";
 
 import LiIcon from "../images/LI-In-Bug.png";
 import GitIcon from "../images/GitHub-Mark-64px.png";
@@ -25,7 +25,7 @@ export default function Navbar() {
                         <Link className="navBtnLink" to="/portfolio">Portfolio</Link>
                     </li>
                     <li className="navBtn">
-                        <HashLink className="navBtnLink" to="#contact">Contact</HashLink>
+                        <Link className="navBtnLink" to="/contact">Contact</Link>
                     </li>
                     <li className="navBtn">
                         <Link className="navBtnLink" to="/resume">Resume</Link>

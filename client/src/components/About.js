@@ -5,7 +5,7 @@ export default function About() {
     return (
         <div>
             <section id="about">
-                <img id="me" src={me} alt="me"></img>
+                <img id="meImg" src={me} alt="me"></img>
                 <div className="bio">
                     <h1 className="opening-line">Hello! My name is Lindsay, and I am a Web Developer in the Raleigh
                         area.</h1>
