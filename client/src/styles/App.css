@@ -167,6 +167,21 @@ body > footer {
   
 }
 
+.socialIcons {
+  display: flex;
+  padding: 1rem;
+}
+
+.linkedIcon {
+  width: 60px;
+  height: 60px;
+  opacity: 60%;
+}
+
+.linkedIcon:hover {
+  opacity: 100%;
+}
+
 
  /* --------------------*/
   /* Footer             */
@@ -258,9 +273,47 @@ body > footer {
   }
 
   .cardCont {
-    margin: 1rem;
+    margin: 1.8rem;
   }
 
+  .cardCont:hover {
+    transform: scale(1.1) rotate(-10deg);
+  }
+
+  /* .cardCont:hover {
+   
+  } */
+/* 
   .cardImg {
     
+  } */
+
+  /* --------------------*/
+  /* Resume section      */
+  /* --------------------*/
+#resume {
+  padding: 2rem;
+  padding-left: 8rem;
+  font-size: 1rem;
+  display: flex;
+}
+ 
+
+  .border1 {
+    border: 1px solid black;
+    
+    min-width: 30rem;
+    
+    
+  }
+
+  .border2 {
+    border: 3px solid black;
+    padding: 1px;
+  }
+
+  .border3 {
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: rgba(220, 220, 228, 0.774);
   }

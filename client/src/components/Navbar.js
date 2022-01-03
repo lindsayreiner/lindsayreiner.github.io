@@ -1,11 +1,13 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import { HashLink } from "react-router-hash-link"
+import { HashLink } from "react-router-hash-link";
 
+import LiIcon from "../images/LI-In-Bug.png";
+import GitIcon from "../images/GitHub-Mark-64px.png";
 import 'normalize.css';
 import '../styles/App.css'
 
-import resume from '../images/Lindsay C. Reiner Web Dev Resume 12.1.2021.pdf';
+
 
 
 export default function Navbar() {
@@ -20,16 +22,20 @@ export default function Navbar() {
                         <Link className="navBtnLink" to="/about">About</Link>
                     </li>
                     <li className="navBtn">
-                        <Link className="navBtnLink" to="/projects">Projects</Link>
+                        <Link className="navBtnLink" to="/portfolio">Portfolio</Link>
                     </li>
                     <li className="navBtn">
                         <HashLink className="navBtnLink" to="#contact">Contact</HashLink>
                     </li>
                     <li className="navBtn">
-                        <a className="navBtnLink" href={resume} target="_blank" rel="noreferrer">Resume</a>
+                        <Link className="navBtnLink" to="/resume">Resume</Link>
                     </li>
                 </ul>
-            </nav>
-        </div>
+                <div className="socialIcons">
+                    <a href="https://www.linkedin.com/in/lindsay-c-reiner-97098a2a/" ><img className="linkedIcon" src={LiIcon} alt="linkedin-icon" /></a>
+                    <a href="https://github.com/lindsayreiner" ><img className="gitIcon" src={GitIcon} alt="github-icon" /></a>
+                </div>
+            </nav >
+        </div >
     )
 }

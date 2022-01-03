@@ -1,7 +1,8 @@
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import About from './components/About';
-import Projects from './components/Projects';
+import Portfolio from './components/Portfolio';
+import Resume from './components/Resume'
 // import Welcome from './components/Welcome';
 import {
   BrowserRouter as Router,
@@ -19,9 +20,10 @@ function App() {
           height: "100vh"
         }}>
           <Routes>
-            <Route path="/about" element={<About />} />
-            <Route path="/projects" element={<Projects />} />
             <Route path="/" element={<About />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/resume" element={<Resume />} />
           </Routes>
         </main>
       </Router>
