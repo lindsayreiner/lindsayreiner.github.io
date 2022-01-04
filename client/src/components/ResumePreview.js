@@ -8,9 +8,9 @@
 //     ];
 //     return (
 //         <div className="App">
-//             <h1>Hello CodeSandbox</h1>
+//             <h1>Resume</h1>
 
-//             <DocViewer pluginRenderers={PDFRenderer} documents={docs} />
+//             <DocViewer documents={docs} />
 //         </div>
 //     )
 // }

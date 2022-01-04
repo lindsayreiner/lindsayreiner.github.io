@@ -7,7 +7,7 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
 
-export default function ProjectCard({ imageLink, title, description, role, websiteLink, gitLink }) {
+export default function ProjectCard({ imageLink, title, description, role, technologies, websiteLink, gitLink }) {
     return (
         <div>
             <Card className="cardCont" sx={{ maxWidth: 345 }}>
@@ -24,6 +24,7 @@ export default function ProjectCard({ imageLink, title, description, role, websi
                     <Typography variant="body2" color="text.secondary">
                         <p>{description}</p>
                         <p><b>Role:</b> {role}</p>
+                        <p><b>Technologies used:</b> {technologies}</p>
                     </Typography>
                 </CardContent>
                 <CardActions>

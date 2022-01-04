@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 // import { HashLink } from "react-router-hash-link";
 
 import LiIcon from "../images/LI-In-Bug.png";
@@ -7,7 +7,12 @@ import GitIcon from "../images/GitHub-Mark-64px.png";
 import 'normalize.css';
 import '../styles/App.css'
 
+// const navBtn = document.getElementsByClassName('navBtnLink')
 
+// const handleClick = () => {
+
+//     this.addClass('active')
+// }
 
 
 export default function Navbar() {
@@ -15,20 +20,20 @@ export default function Navbar() {
         <div>
 
             <nav className="navbar">
-                <Link className="initials animation" to="/">LCR</Link>
+                <p className="initials animation" to="/">LCR</p>
                 <ul className="navBtnCont">
 
                     <li className="navBtn">
-                        <Link className="navBtnLink" to="/about">About</Link>
+                        <NavLink className="navBtnLink" to="/">About</NavLink>
                     </li>
                     <li className="navBtn">
-                        <Link className="navBtnLink" to="/portfolio">Portfolio</Link>
+                        <NavLink className="navBtnLink" to="/portfolio">Portfolio</NavLink>
                     </li>
                     <li className="navBtn">
-                        <Link className="navBtnLink" to="/contact">Contact</Link>
+                        <NavLink className="navBtnLink" to="/contact">Contact</NavLink>
                     </li>
                     <li className="navBtn">
-                        <Link className="navBtnLink" to="/resume">Resume</Link>
+                        <NavLink className="navBtnLink" to="/resume" >Resume</NavLink>
                     </li>
                 </ul>
                 <div className="socialIcons">
