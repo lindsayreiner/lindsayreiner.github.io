@@ -9,12 +9,12 @@ import Typography from '@mui/material/Typography';
 
 export default function ProjectCard({ imageLink, title, description, role, technologies, websiteLink, gitLink }) {
     return (
-        <div>
-            <Card className="cardCont" sx={{ maxWidth: 345 }}>
+        <div className="cardCont">
+            <Card sx={{ maxWidth: 345 }}>
                 <CardMedia className="cardImg"
                     component="img"
                     alt="app_photo"
-                    height="140"
+                    height="auto"
                     image={imageLink}
                 />
                 <CardContent>

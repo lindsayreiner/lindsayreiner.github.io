@@ -30,17 +30,27 @@
   html,
   body {
     margin: 0;
+    height: 100%;
   }
 
   /* had background-image first without rest on same line */
   html {
-    background-image: url(../images/background-image.jpg);
-    /* background: url(../images/background-image.jpg) no-repeat center center fixed; */
-    background-repeat: no-repeat;
-    background-position: center fixed;
+    /* background-image: url(../images/background-image.jpg); */
+    background: url(../images/background-image.jpg) no-repeat center center fixed;
+    /* background-repeat: no-repeat;
+    background-position: center fixed; */
     background-size: cover;
 
   }
+
+body { 
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
 
 #root { 
     font-family: 'Red Hat Display', sans-serif;
@@ -56,10 +66,10 @@ img {
 
 /* Sticky footer */
 
-body > footer {
+/* body > footer {
   position: sticky;
   top: 100vh;
-}
+} */
 
 /* --------------------*/
 /* Scrollbar           */
@@ -299,7 +309,7 @@ body > footer {
   }
 
   .cardCont {
-    margin: 1.8rem;
+    padding: 1rem;
   }
 
   .cardCont:hover {

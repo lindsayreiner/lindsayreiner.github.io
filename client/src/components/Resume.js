@@ -1,7 +1,7 @@
 import React from 'react';
 import DownloadLink from "react-download-link";
 // import ResumePreview from './ResumePreview';
-import resume from '../images/Lindsay C. Reiner Web Dev Resume 12.1.2021.pdf';
+import resume from '../images/LindsayReinerResume.pdf';
 
 export default function Resume() {
     return (

@@ -16,10 +16,9 @@ import './styles/App.css'
 function App() {
   return (
     <>
-      <Router><Navbar />
-        <main style={{
-          height: "100vh"
-        }}>
+      <Router>
+        <Navbar />
+        <main>
           <Routes>
             <Route path="/" element={<About />} />
             <Route path="/about" element={<About />} />

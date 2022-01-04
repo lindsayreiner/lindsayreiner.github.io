@@ -1,6 +1,6 @@
 import React from 'react';
 
-import resume from '../images/Lindsay C. Reiner Web Dev Resume 12.1.2021.pdf';
+import resume from '../images/LindsayReinerResume.pdf';
 
 
 
