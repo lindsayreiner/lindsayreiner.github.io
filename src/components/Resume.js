@@ -1,5 +1,5 @@
 import React from 'react';
-import DownloadLink from "react-download-link";
+// import DownloadLink from "react-download-link";
 // import ResumePreview from './ResumePreview';
 import resume from '../images/LindsayReinerResume.pdf';
 
@@ -12,10 +12,7 @@ export default function Resume() {
                     <div className="border2">
                         <div className="border3">
                             <h1 className="resTitle">Resume</h1>
-                            <p>Download my <DownloadLink
-                                label="resume"
-                                filename={resume}
-                                exportFile={() => "My cached data"} /> </p>
+                            <p>Download my <a href={resume} download>resume</a></p>
 
                             <h2 className="profTitle">Front-End Proficiencies</h2>
                             <ul>
