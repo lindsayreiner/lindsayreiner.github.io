@@ -41,18 +41,11 @@ html {
   background-size: cover;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-}
-
-main {
-  height: 100%;
-}
-
 #root {
   font-family: "Red Hat Display", sans-serif;
   font-size: 62.5%;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
