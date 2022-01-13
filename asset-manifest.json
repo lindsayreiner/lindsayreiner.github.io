@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5e6810b0.css",
+    "main.js": "/static/js/main.b1b69b81.js",
+    "static/media/background-image.jpg": "/static/media/background-image.ad087f7f239d8bb644d5.jpg",
+    "static/media/app_screenshot.png": "/static/media/app_screenshot.d4c649fa7917bbe9453c.png",
+    "static/media/astronomical-guidance.png": "/static/media/astronomical-guidance.689fb494a509c1345c27.png",
+    "static/media/me.jpg": "/static/media/me.4e38aa5ad0b3f784675f.jpg",
+    "static/media/Finished Scheduler.png": "/static/media/Finished Scheduler.1120fe5e06de5087aaed.png",
+    "static/media/Weather app with search results.png": "/static/media/Weather app with search results.8de9f19b6f42fcd782db.png",
+    "static/media/order-summary-comp.png": "/static/media/order-summary-comp.e2b37568f40fa8c87675.png",
+    "static/media/LindsayReinerResume.pdf": "/static/media/LindsayReinerResume.17120b87259b6467d13f.pdf",
+    "static/media/10-object-oriented-programming-homework-demo.png": "/static/media/10-object-oriented-programming-homework-demo.399fd7d8d2f2bf956293.png",
+    "index.html": "/index.html",
+    "main.5e6810b0.css.map": "/static/css/main.5e6810b0.css.map",
+    "main.b1b69b81.js.map": "/static/js/main.b1b69b81.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e6810b0.css",
+    "static/js/main.b1b69b81.js"
+  ]
+}

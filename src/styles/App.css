@@ -22,39 +22,37 @@
   --light: #fffffa;
 }
 
-  
-  /* --------------------*/
-  /* Root style          */
-  /* --------------------*/
-  
-  html,
-  body {
-    margin: 0;
-    height: 100%;
-  }
+/* --------------------*/
+/* Root style          */
+/* --------------------*/
 
-  /* had background-image first without rest on same line */
-  html {
-    /* background-image: url(../images/background-image.jpg); */
-    background: url(../images/background-image.jpg) no-repeat center center fixed;
-    /* background-repeat: no-repeat;
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+/* had background-image first without rest on same line */
+html {
+  /* background-image: url(../images/background-image.jpg); */
+  background: url(../images/background-image.jpg) no-repeat center center fixed;
+  /* background-repeat: no-repeat;
     background-position: center fixed; */
-    background-size: cover;
+  background-size: cover;
+}
 
-  }
-
-body { 
+body {
   display: flex;
   flex-direction: column;
 }
 
 main {
-  flex: 1 0 auto;
+  height: 100%;
 }
 
-#root { 
-    font-family: 'Red Hat Display', sans-serif;
-    font-size: 62.5%;
+#root {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 62.5%;
 }
 
 img {
@@ -113,7 +111,6 @@ img {
   height: 50px;
   line-height: 50px;
   margin-left: 2rem;
-  
 }
 
 .animation {
@@ -141,17 +138,16 @@ img {
   }
 }
 
- /* --------------------*/
-  /* Navbar             */
-  /* --------------------*/
+/* --------------------*/
+/* Navbar             */
+/* --------------------*/
 
 .navbar {
   background-color: black;
   /* width: 100vw; */
   height: 19vh;
   display: flex;
-  
-  
+
   /* flex-direction: row; */
 }
 
@@ -161,17 +157,15 @@ img {
   width: 69%;
 }
 
-
-.navBtn { 
+.navBtn {
   margin-top: 2rem;
   list-style: none;
 }
 
-.active { 
+.active {
   border-bottom: 5px var(--eggplant) solid;
   color: #82b8d4;
 }
-
 
 .navBtnLink:hover {
   border-bottom: 5px var(--eggplant) solid;
@@ -184,9 +178,8 @@ img {
   color: var(--light);
   font-size: 1.3rem;
   font-weight: bold;
-  padding: .3rem calc(100vw - 1000px) / 2;
+  padding: 0.3rem calc(100vw - 1000px) / 2;
   z-index: 10;
-  
 }
 
 .socialIcons {
@@ -214,48 +207,47 @@ img {
   opacity: 100%;
 }
 
+/* --------------------*/
+/* Footer             */
+/* --------------------*/
 
- /* --------------------*/
-  /* Footer             */
-  /* --------------------*/
+.footerCont {
+  height: 5rem;
+  width: 100%;
+  background-color: black;
+  color: var(--light);
+}
 
-  .footerCont {
-    height: 5rem;
-    width: 100%;
-    background-color: black;
-    color: var(--light);
-  }
-  
-  .footerUl {
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 1.5em;
-    align-items: center;
-    /* width: 100vw; */
-    height: 100%;
-  }
+.footerUl {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.5em;
+  align-items: center;
+  /* width: 100vw; */
+  height: 100%;
+}
 
-  .footerLi {
-    text-decoration: none;
-    list-style: none;
-  }
+.footerLi {
+  text-decoration: none;
+  list-style: none;
+}
 
-  .footerLiLink {
-    text-decoration: none;
-    list-style: none;
-    color: inherit;
-  }
+.footerLiLink {
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+}
 
-  .footerLiLink:hover {
-    border-bottom: 5px var(--eggplant) solid;
-    color: #82b8d4;
-  }
+.footerLiLink:hover {
+  border-bottom: 5px var(--eggplant) solid;
+  color: #82b8d4;
+}
 
-  /* --------------------*/
-  /* About section       */
-  /* --------------------*/
+/* --------------------*/
+/* About section       */
+/* --------------------*/
 
-#about { 
+#about {
   font-size: 1rem;
   margin: 1rem;
   padding: 2rem;
@@ -264,8 +256,8 @@ img {
   border-bottom-right-radius: 200px;
   display: flex;
   background-color: rgba(220, 220, 228, 0.774);
-  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgba(17, 17, 17, 0.171),
-    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0 0 0 2px rgba(17, 17, 17, 0.171), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
 
 #meImg {
@@ -274,46 +266,45 @@ img {
   padding-left: 4rem;
   margin-right: -4rem;
   filter: grayscale(50%);
-  
 }
 
 .bio {
   display: flex;
   flex-direction: column;
   padding-left: 7rem;
-  padding-right: 7rem; 
+  padding-right: 7rem;
 }
 
-  .opening-line:first-letter {
-    font-size: 3rem;
-  }
+.opening-line:first-letter {
+  font-size: 3rem;
+}
 
-  .aboutPara {
-    font-size: 1rem;
-  }
+.aboutPara {
+  font-size: 1rem;
+}
 
-  /* --------------------*/
-  /* Project section     */
-  /* --------------------*/
+/* --------------------*/
+/* Project section     */
+/* --------------------*/
 
-  #projects { 
-    padding: 2rem;
-    display: flex;
-    flex-flow: row wrap;
-    overflow:auto;
-  }
+#projects {
+  padding: 2rem;
+  display: flex;
+  flex-flow: row wrap;
+  overflow: auto;
+}
 
-  .cardCont {
-    padding: 1rem;
-  }
+.cardCont {
+  padding: 1rem;
+}
 
-  .cardCont:hover {
-    transform: scale(1.1) rotate(-10deg);
-  }
+.cardCont:hover {
+  transform: scale(1.1) rotate(-10deg);
+}
 
-  /* --------------------*/
-  /* Resume section      */
-  /* --------------------*/
+/* --------------------*/
+/* Resume section      */
+/* --------------------*/
 #resume,
 .contactInfoCont {
   padding: 2rem;
@@ -321,33 +312,30 @@ img {
   font-size: 1rem;
   display: flex;
 }
- 
 
-  .border1 {
-    border: 1px solid black;
-    min-width: 30rem;
-  }
+.border1 {
+  border: 1px solid black;
+  min-width: 30rem;
+}
 
-  .border2 {
-    border: 3px solid black;
-    padding: 1px;
-  }
+.border2 {
+  border: 3px solid black;
+  padding: 1px;
+}
 
-  .border3 {
-    border: 1px solid black;
-    padding: 1rem;
-    background-color: rgba(220, 220, 228, 0.774);
-  }
+.border3 {
+  border: 1px solid black;
+  padding: 1rem;
+  background-color: rgba(220, 220, 228, 0.774);
+}
 
-  .resumeLink {
-    text-decoration: none;
-
-  }
+.resumeLink {
+  text-decoration: none;
+}
 
 /* --------------------*/
 /* Contact section     */
 /* --------------------*/
-
 
 .contactLi,
 .contactLiLink {
@@ -378,4 +366,3 @@ img {
   padding-left: 1rem;
   background-color: rgba(220, 220, 228, 0.774);
 }
-
