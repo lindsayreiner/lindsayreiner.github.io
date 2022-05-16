@@ -2,7 +2,7 @@
 
 This will serve as my portfolio page for job seeking.
 
-Live link: https://lindsayreiner.github.io/Portfolio-Nov2021/
+Live link: https://boisterous-pavlova-8a4524.netlify.app
 
 
 <img src="public/images/portfolio-screenshot.png" alt="portfolio-screenshot">
