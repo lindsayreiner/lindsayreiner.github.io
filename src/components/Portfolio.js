@@ -12,7 +12,7 @@ const projects = [
     {
         imageLink: wanderPic,
         title: 'Wanderlust Reviews',
-        description: 'Do you love travelling? Are you active on social media? If you said yes to those two things, then you\'re going to want to be a part of the Wanderlust Reviews community! Want to go somewhere new? Pick a city and scour the reviews! Create a vetted trip itinerary from other wanderlusters just like you!',
+        description: 'Do you love traveling? Are you active on social media? If you said yes to those two things, then you\'re going to want to be a part of the Wanderlust Reviews community! Want to go somewhere new? Pick a city and scour the reviews! Create a vetted trip itinerary from other wanderlusters just like you!',
         role: 'UI/UX design, Express routes, Login/out',
         technologies: 'Javascript, Handlebars, HTML, CSS, Express, Node, mySQL, Sequelize',
         websiteLink: 'https://lit-coast-69358.herokuapp.com/',
