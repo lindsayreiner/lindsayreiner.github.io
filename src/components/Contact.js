@@ -1,8 +1,11 @@
 import React from 'react'
 
+import ContactForm from './ContactForm';
+
 export default function Contact() {
     return (
-        <>
+        <div className="contactPage">
+            <ContactForm />
             <div className="contactInfoCont">
                 <div className="border1C">
                     <div className="border2C">
@@ -19,6 +22,8 @@ export default function Contact() {
                     </div>
                 </div>
             </div>
-        </>
+
+
+        </div>
     )
 }
