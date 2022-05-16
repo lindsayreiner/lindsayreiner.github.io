@@ -37,8 +37,8 @@ export default function Navbar() {
                     </li>
                 </ul>
                 <div className="socialIcons">
-                    <a href="https://www.linkedin.com/in/lindsay-c-reiner-97098a2a/" target="_blank"><img className="linkedIcon" src={LiIcon} alt="linkedin-icon" /></a>
-                    <a href="https://github.com/lindsayreiner" target="_blank"><img className="gitIcon" src={GitIcon} alt="github-icon" /></a>
+                    <a href="https://www.linkedin.com/in/lindsay-c-reiner-97098a2a/" target="_blank" rel="noreferrer"><img className="linkedIcon" src={LiIcon} alt="linkedin-icon" /></a>
+                    <a href="https://github.com/lindsayreiner" target="_blank" rel="noreferrer"><img className="gitIcon" src={GitIcon} alt="github-icon" /></a>
                 </div>
             </nav >
         </div >
