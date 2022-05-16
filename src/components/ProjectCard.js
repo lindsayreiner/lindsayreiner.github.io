@@ -28,8 +28,8 @@ export default function ProjectCard({ imageLink, title, description, role, techn
                     </Typography>
                 </CardContent>
                 <CardActions>
-                    <a href={websiteLink} target="_blank"><Button size="small">Visit Website</Button></a>
-                    <a href={gitLink} target="_blank"><Button size="small">GitHub Repo</Button></a>
+                    <a href={websiteLink} target="_blank" rel="noreferrer"><Button size="small">Visit Website</Button></a>
+                    <a href={gitLink} target="_blank" rel="noreferrer"><Button size="small">GitHub Repo</Button></a>
                 </CardActions>
             </Card>
         </div>
