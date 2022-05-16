@@ -264,8 +264,7 @@ img {
 .bio {
   display: flex;
   flex-direction: column;
-  padding-left: 7rem;
-  padding-right: 7rem;
+ padding: 1rem 7rem;
 }
 
 .opening-line:first-letter {
@@ -307,9 +306,22 @@ img {
   display: flex;
 }
 
+.profCont {
+  display: flex;
+}
+
+.frontEndProfCont,
+.backEndProfCont {
+margin: 1.5rem;
+}
+
+.profHeader {
+  font-size: 1rem;
+}
+
 .border1 {
   border: 1px solid black;
-  min-width: 100rem;
+  min-width: 35rem;
 }
 
 .border2 {
@@ -384,6 +396,6 @@ img {
 .border3C {
   border: 1px solid black;
   padding-left: 4rem;
-  padding-right: 4rem;
+  /* padding-right: 4rem; */
   background-color: rgba(220, 220, 228, 0.774);
 }

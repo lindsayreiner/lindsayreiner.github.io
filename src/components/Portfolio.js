@@ -24,7 +24,7 @@ const projects = [
         description: 'Used Weather API to create a weather app to receive current forecast, as well as, a 5 day future forecast.',
         role: 'Sole Author',
         technologies: '3rd party API, Local Storage, Javascript, HTML, CSS',
-        websiteLink: 'https://lindsayreiner.github.io/weather-dashboard/',
+        websiteLink: 'https://lindsayreiner.github.io/5-day-Weather-Forecast/',
         gitLink: 'https://github.com/lindsayreiner/weather-dashboard'
     },
     {
@@ -51,7 +51,7 @@ const projects = [
         description: 'Frontend Mentor Challenge',
         role: 'Sole Author',
         technologies: 'CSS, HTML',
-        websiteLink: 'https://lindsayreiner.github.io/order-summary-component/',
+        websiteLink: 'https://lindsayreiner.github.io/Order-Summary-Component/',
         gitLink: 'https://github.com/lindsayreiner/order-summary-component'
     },
     {
