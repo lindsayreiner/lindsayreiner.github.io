@@ -289,6 +289,7 @@ img {
 
 .cardCont {
   padding: 1rem;
+  margin: 3rem;
 }
 
 .cardCont:hover {
