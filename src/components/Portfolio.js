@@ -2,7 +2,7 @@ import React from 'react';
 import wanderPic from '../images/app_screenshot.png';
 import astroPic from '../images/astronomical-guidance.png';
 import weatherPic from '../images/Weather app with search results.png';
-import schedPic from '../images/Finished Scheduler.png';
+import schedPic from '../images/lindsayreiner.github.io_workday-scheduler_.png';
 import summaryPic from '../images/order-summary-comp.png';
 import teamPic from '../images/10-object-oriented-programming-homework-demo.png'
 
