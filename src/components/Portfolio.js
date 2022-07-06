@@ -57,6 +57,7 @@ const projects = [
     {
         imageLink: teamPic,
         title: 'Team Profile Generator',
+        description: 'This is a backend project so there is no deployed link. Clone repo, and follow README instructions for running app.',
         role: 'Sole Author',
         technologies: 'JavaScript, CSS, HTML, mySQL, OOP',
         gitLink: 'https://github.com/lindsayreiner/team-profile-generator'
