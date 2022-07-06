@@ -41,7 +41,7 @@ const projects = [
         title: 'Workday Scheduler',
         description: 'Schedule your day hour by hour with this easy to use calendar.',
         role: 'Sole Author',
-        technologies: '',
+        technologies: 'Javascript, CSS, HTML, Bootstrap',
         websiteLink: 'https://lindsayreiner.github.io/workday-scheduler/',
         gitLink: 'https://github.com/lindsayreiner/workday-scheduler'
     },
@@ -57,9 +57,9 @@ const projects = [
     {
         imageLink: teamPic,
         title: 'Team Profile Generator',
-        description: 'This is a backend project so there is no deployed link. Clone repo, and follow README instructions for running app.',
+        description: 'This is a backend project so there is no deployed link. Run app in Node, create your team, and a dynamic HTML page will be created based on your inputs.',
         role: 'Sole Author',
-        technologies: 'JavaScript, CSS, HTML, mySQL, OOP',
+        technologies: 'JavaScript, Node, CSS, HTML, mySQL, OOP',
         gitLink: 'https://github.com/lindsayreiner/team-profile-generator'
     }
 ]
